@@ -9,10 +9,10 @@ SourceTrace scans grocery receipts and reveals the corporate ownership behind ev
 ## 📱 Demo
 
 ### Landing Page
-![SourceTrace Landing Page](assets/screenshots/landing-page.png)
+![SourceTrace Landing Page](assets/screenshots/Source-Trace-Landng.png)
 
 ### Receipt Analysis Result
-![Receipt Analysis Result](assets/screenshots/receipt-result.png)
+![Receipt Analysis Result](assets/screenshots/Source-Trace-Result.png)
 
 ---
 
@@ -38,10 +38,10 @@ When you buy groceries, you see brand names — but who actually owns these bran
 ## 📊 Example
 
 ### Input: Grocery Receipt
-![Example Receipt](assets/screenshots/receipt-example.png)
+![Example Receipt](assets/screenshots/Example-Receipt.jpg)
 
 ### Output: Ownership Analysis
-![Ownership Breakdown](assets/screenshots/ownership-breakdown.png)
+![Ownership Breakdown](assets/screenshots/Source-Trace-Result.png)
 
 | Product | Brand | Parent Company | Jurisdiction |
 |---------|-------|----------------|--------------|
@@ -131,8 +131,6 @@ This project was informed by deep research into German consumer behavior:
 
 **Key finding:** No existing tool combined receipt scanning with corporate ownership data.
 
-Full research: [research/german-consumer-insights-2026.md](research/german-consumer-insights-2026.md)
-
 ---
 
 ## 🗺️ Roadmap
@@ -153,24 +151,16 @@ Full research: [research/german-consumer-insights-2026.md](research/german-consu
 sourcetrace/
 ├── README.md
 ├── LICENSE
+├── assets/
+│   └── screenshots/
+│       ├── Example-Receipt.jpg
+│       ├── n8n-workflow.png
+│       ├── Source-Trace-Landng.png
+│       └── Source-Trace-Result.png
 ├── frontend/
-│   └── README.md
 ├── backend/
-│   ├── n8n-workflow.json
-│   └── README.md
 ├── research/
-│   └── german-consumer-insights-2026.md
-├── docs/
-│   ├── architecture.md
-│   ├── api-reference.md
-│   └── setup-guide.md
-└── assets/
-    └── screenshots/
-        ├── landing-page.png
-        ├── receipt-example.png
-        ├── receipt-result.png
-        ├── ownership-breakdown.png
-        └── n8n-workflow.png
+└── docs/
 ```
 
 ---
@@ -186,8 +176,7 @@ MIT License — see [LICENSE](LICENSE)
 **Julian Sauer**
 
 - LinkedIn: [your-linkedin]
-- GitHub: [@your-github]
-- Website: [your-website]
+- GitHub: [@JULIAN-SAUER-DEV](https://github.com/JULIAN-SAUER-DEV)
 
 ---
 
